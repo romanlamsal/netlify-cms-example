@@ -1,0 +1,16 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+
+media_folder: "uploads"
+
+collections:
+  - name: "menuitem"
+    label: "Menüeintrag"
+    folder: "data/menuitem"
+    fields:
+      - { label: "Titel (Deutsch)", name: "titleDe", widget: "string" }
+      - { label: "Beschreibung (Deutsch)", name: "descDe", widget: "text" }
+      - { label: "Titel (Englisch)", name: "titleEn", widget: "string" }
+      - { label: "Beschreibung (Englisch)", name: "descEn", widget: "text" }
+      - { name: "noLabel", widget: "string" }

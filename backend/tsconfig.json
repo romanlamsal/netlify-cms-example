@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "target": "ES6",
+    "noImplicitAny": true,
+    "module": "CommonJS"
+  },
+  "include": [
+    "src"
+  ]
+}
